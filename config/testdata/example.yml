@@ -1,0 +1,8 @@
+auth:
+  pat: hello
+  secret: world
+rules:
+  - consume: log
+    produce: text
+    formatters:
+      - unfold
